@@ -60,6 +60,7 @@
 
  ## [Diffusion in General](#diffusion)
 1. **Diffusion models from scratch in PyTorch**. DeepFindr. [Youtube](https://www.youtube.com/watch?v=a4Yfz2FxXiY&t=1538s)<br>
+2. **Diffusion Paper Mathematics Derivation**. Outlier. [Youtube](https://www.youtube.com/watch?v=HoKDTa5jHvg&t=856s)<br>
 
 # [Object Classification/Segmentation](#content)
 ## [Zero-shot Classification/Segmentation](#object-classification/segmentation)
