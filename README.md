@@ -14,7 +14,10 @@
 <tr><td colspan="2"><a href="#diffusion">1.  Diffusion</a></td></tr>
 <tr>
     <td>&ensp;<a href="#concept-erasing">1.1 Concept Erasing</a></td>
-    <td>&ensp;<a href="#general-model">1.2 General Model</a></td>
+    <td>&ensp;<a href="#general-model">1.2 General/Foundation Model</a></td>
+</tr>
+<tr>
+    <td>&ensp;<a href="#diffusion-in-general">1.3 Diffusion in General</a></td>
 </tr>
 <tr><td colspan="2"><a href="#object-classification/segmentation">2. Object Classification/Segmentation</a></td></tr>
 <tr>
@@ -24,6 +27,14 @@
 <tr>
     <td>&ensp;<a href="#scene-completion">3.1. Scene Completion</a></td>
     <td>&ensp;<a href="#lidar-based-segmentation/detection">3.2. Lidar-based Segmentation/Detection</a></td>
+</tr>
+<tr><td colspan="2"><a href="General Deep learning Concept">4. General Deep Learning concepts</a></td></tr>
+<tr>
+    <td>&ensp;<a href="#positional/time Encoding">4.1. Positional/Time Encoding</a></td>
+    <td>&ensp;<a href="#KL Divergence">4.2. KL Divergence</a></td>
+</tr>
+<tr>
+    <td>&ensp;<a href="#GPT Tokenization">4.3. GPT Tokenization</a></td>
 </tr>
 </table>
 
@@ -41,11 +52,14 @@
 *Patrick Schramowski, Manuel Brack, Bjorn Deiseroth, Kristian Kersting.*
 6. **Data Redaction from Pre-trained GANs**. TSRML2022. [Paper](https://arxiv.org/abs/2206.14389). <br>
 *Zhifeng Kong, Kamalika Chaudhuri.*
-## [General Model](#content)
+## [General Model](#diffusion)
 1. **One transformer fits all distributions in multi-modal diffusion at scale**. ICML 2023. [Paper](https://arxiv.org/pdf/2303.06555.pdf)<br>
  *Fan Bao, Shen Nie, Kaiwen Xue, Chongxuan Li, Shi Pu, Yaole Wang, Gang Yue, Yue Cao, Hang Su, Jun Zhu.*
 2. **Versatile Diffusion: Text, Images and Variations All in One Diffusion Model**. ICCV 2023. [Paper](https://arxiv.org/pdf/2211.08332.pdf)<br>
  *Xingqian Xu, Zhangyang Wang, Eric Zhang, Kai Wang, Humphrey Shi.*
+
+ ## [Diffusion in General](#diffusion)
+1. **Diffusion models from scratch in PyTorch**. DeepFindr. [Youtube](https://www.youtube.com/watch?v=a4Yfz2FxXiY&t=1538s)<br>
 
 # [Object Classification/Segmentation](#content)
 ## [Zero-shot Classification/Segmentation](#object-classification/segmentation)
@@ -68,4 +82,13 @@
 2. **Focal Sparse Convolutional Networks for 3D Object Detection**. CVPR 2022. [Paper](https://arxiv.org/abs/2204.12463) <br>
 *Yukang Chen, Yanwei Li, Xiangyu Zhang, Jian Sun, Jiaya Jia.*
 
+# [General Deep Learning Concept](#content)
+## [Positional/Time Encoding](#generaldeeplearningconcept)
+1. **Why Positional Encoding is using Sine/Cosine Function**.  Kazemnejad. [Reading](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/). <br>
+
+## [KL Divergence](#generaldeeplearningconcept)
+1. **Intuitively Understanding the KL Divergence**.  Liusie. [Youtube](https://www.youtube.com/watch?v=SxGYPqCgJWM). <br>
+
+## [GPT Tokenization](#gpttokenization)
+1. **Let's build the GPT Tokenizer**.  Andrej Karpathy. [Youtube](https://www.youtube.com/watch?v=zduSFxRajkE&t=1478s). <br>
 
